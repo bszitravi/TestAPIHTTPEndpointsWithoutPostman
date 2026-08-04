@@ -1,0 +1,6 @@
+@TestAPIHTTPEndpointsWithoutPostman_HostAddress = http://localhost:5241
+
+GET {{TestAPIHTTPEndpointsWithoutPostman_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

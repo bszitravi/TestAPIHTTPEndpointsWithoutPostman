@@ -1,0 +1,10 @@
+@HostAddress = https://localhost:7044
+
+### 1. Test GET Request
+GET {{HostAddress}}/api/tes
+
+### 2. Test POST Request
+POST {{HostAddress}}/api/tes
+Content-Type: application/json
+
+"Meisam ok testing"
